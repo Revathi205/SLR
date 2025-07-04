@@ -1,0 +1,261 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>SLR Installations</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style>
+  .perspective {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+</style>
+
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#111418] dark group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#283039] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">SLR Installations</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="services.html">Services</a>
+              <a class="text-white text-sm font-medium leading-normal" href="about us.html">About</a>
+              <a class="text-white text-sm font-medium leading-normal" href="projects.html">Projects</a>
+              <a class="text-white text-sm font-medium leading-normal" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("assets/ChatGPT Image Jul 1, 2025, 08_03_16 PM.png");background-size: 600px 300px;background-position: center 5%;'
+                >
+                  <h1
+                    class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] text-center"
+                  >
+                    Modern Power. Smart Installations.
+                  </h1>
+                  <div class="flex-wrap gap-3 flex">
+                     <a href="contact.html">
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#0c7ff2] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                    >
+                      <span class="truncate">Let's Talk</span>
+                    </button>
+                     </a>
+                    <a href="services.html">
+                     <button
+                        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#283039] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                      >
+                      <span class="truncate">Explore Services</span>
+                      </button>
+                     </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Services</h2>
+            <div class="p-4">
+  <div class="flip-card perspective rounded-xl bg-[#1b2127] shadow-[0_0_4px_rgba(0,0,0,0.1)] h-[280px]">
+    <div class="flip-card-inner w-full h-full">
+
+      <!-- FRONT SIDE -->
+      <div class="flip-card-front flex items-stretch justify-between gap-4 p-4 rounded-xl">
+        <div class="flex flex-[2_2_0px] flex-col gap-4">
+          <div class="flex flex-col gap-1">
+            <p class="text-white text-base font-bold leading-tight">High Tension &amp; Low Tension Installations</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal">
+              Expert installation of high and low tension electrical systems, ensuring safety and efficiency for industrial applications.
+            </p>
+          </div>
+          <button onclick="this.closest('.flip-card').classList.add('flipped')"
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#283039] text-white text-sm font-medium leading-normal w-fit">
+            <span class="truncate">Learn More</span>
+          </button>
+        </div>
+        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAB2PS8FhQYXmBkgPf1z1lcgGYYuh0sOMnnExOnYnDnxTCqfzmMM9rOvndRGp9ZYYV4Pm3P4VKUUHtAU2DjV288mEr-2ZPb--ioGzl_5b7VYv_-6JR3aLBrnA1HTnyOHtnTFG0mKR8t92hQd-h37MF8S4_qw1CH43l3HYmCn8NPFh0FOLJ7FRkJ41ui6pzFHnxQ5trJsLQOyhef9Hz0Hd-yPg3RXc-GmVmcJ-m9tScO-Wb2Gr6mMxwHLvH1_vRGmp5MKcZV8AN-e1I");'>
+        </div>
+      </div>
+
+      <!-- BACK SIDE -->
+      <div class="flip-card-back bg-[#283039] rounded-xl p-6 text-white flex flex-col justify-between">
+        <div>
+          <p class="text-base font-bold mb-2">Installation Details</p>
+          <p class="text-sm text-[#cfd8e3]">
+            Our team ensures seamless integration with your infrastructure, safety compliance, and efficiency through top-grade equipment and skilled professionals.
+          </p>
+        </div>
+        <button onclick="this.closest('.flip-card').classList.remove('flipped')"
+          class="mt-4 text-sm text-blue-400 hover:underline self-start">← Back</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+           <div class="p-4">
+  <div class="flip-card perspective rounded-xl bg-[#1b2127] shadow-[0_0_4px_rgba(0,0,0,0.1)] h-[280px]">
+    <div class="flip-card-inner w-full h-full">
+
+      <!-- FRONT SIDE -->
+      <div class="flip-card-front flex items-stretch justify-between gap-4 p-4 rounded-xl">
+        <div class="flex flex-[2_2_0px] flex-col gap-4">
+          <div class="flex flex-col gap-1">
+            <p class="text-white text-base font-bold leading-tight">Trading</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal">
+               Supply of high-quality electrical components and equipment, tailored to meet the specific needs of industrial projects.
+            </p>
+          </div>
+          <button onclick="this.closest('.flip-card').classList.add('flipped')"
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#283039] text-white text-sm font-medium leading-normal w-fit">
+            <span class="truncate">Learn More</span>
+          </button>
+        </div>
+        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAB2PS8FhQYXmBkgPf1z1lcgGYYuh0sOMnnExOnYnDnxTCqfzmMM9rOvndRGp9ZYYV4Pm3P4VKUUHtAU2DjV288mEr-2ZPb--ioGzl_5b7VYv_-6JR3aLBrnA1HTnyOHtnTFG0mKR8t92hQd-h37MF8S4_qw1CH43l3HYmCn8NPFh0FOLJ7FRkJ41ui6pzFHnxQ5trJsLQOyhef9Hz0Hd-yPg3RXc-GmVmcJ-m9tScO-Wb2Gr6mMxwHLvH1_vRGmp5MKcZV8AN-e1I");'>
+        </div>
+      </div>
+
+      <!-- BACK SIDE -->
+      <div class="flip-card-back bg-[#283039] rounded-xl p-6 text-white flex flex-col justify-between">
+        <div>
+          <p class="text-base font-bold mb-2">Installation Details</p>
+          <p class="text-sm text-[#cfd8e3]">
+            Our team ensures seamless integration with your infrastructure, safety compliance, and efficiency through top-grade equipment and skilled professionals.
+          </p>
+        </div>
+        <button onclick="this.closest('.flip-card').classList.remove('flipped')"
+          class="mt-4 text-sm text-blue-400 hover:underline self-start">← Back</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="p-4">
+  <div class="flip-card perspective rounded-xl bg-[#1b2127] shadow-[0_0_4px_rgba(0,0,0,0.1)] h-[280px]">
+    <div class="flip-card-inner w-full h-full">
+
+      <!-- FRONT SIDE -->
+      <div class="flip-card-front flex items-stretch justify-between gap-4 p-4 rounded-xl">
+        <div class="flex flex-[2_2_0px] flex-col gap-4">
+          <div class="flex flex-col gap-1">
+            <p class="text-white text-base font-bold leading-tight">Electrical Panels</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal">
+              Custom-designed and built electrical panels for optimal power distribution and control in industrial settings.
+            </p>
+          </div>
+          <button onclick="this.closest('.flip-card').classList.add('flipped')"
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#283039] text-white text-sm font-medium leading-normal w-fit">
+            <span class="truncate">Learn More</span>
+          </button>
+        </div>
+        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAB2PS8FhQYXmBkgPf1z1lcgGYYuh0sOMnnExOnYnDnxTCqfzmMM9rOvndRGp9ZYYV4Pm3P4VKUUHtAU2DjV288mEr-2ZPb--ioGzl_5b7VYv_-6JR3aLBrnA1HTnyOHtnTFG0mKR8t92hQd-h37MF8S4_qw1CH43l3HYmCn8NPFh0FOLJ7FRkJ41ui6pzFHnxQ5trJsLQOyhef9Hz0Hd-yPg3RXc-GmVmcJ-m9tScO-Wb2Gr6mMxwHLvH1_vRGmp5MKcZV8AN-e1I");'>
+        </div>
+      </div>
+
+      <!-- BACK SIDE -->
+      <div class="flip-card-back bg-[#283039] rounded-xl p-6 text-white flex flex-col justify-between">
+        <div>
+          <p class="text-base font-bold mb-2">Installation Details</p>
+          <p class="text-sm text-[#cfd8e3]">
+            Our team ensures seamless integration with your infrastructure, safety compliance, and efficiency through top-grade equipment and skilled professionals.
+          </p>
+        </div>
+        <button onclick="this.closest('.flip-card').classList.remove('flipped')"
+          class="mt-4 text-sm text-blue-400 hover:underline self-start">← Back</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">About Us</h2>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              SLR Installations is a leading provider of modern industrial electrical solutions. We specialize in smart installations that enhance efficiency, reliability, and
+              safety for our clients. Our team of experts combines technical expertise with innovative approaches to deliver exceptional results.
+            </p>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Clients</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAUbQAxqvkrgeWZqSDqJFBsenumPomRy8x6OrsUYkWl2aojMgyE76zzeP4eWMiLo96JcNo4SFruz7BQydEVw9cv-PXoJHmYrHjk6OROhIFpyiP0o8O03JFyBjzFzm9qLZnoZWKteHJ2IBwHo7YUnq2E87SDW6l_E9PMwdHcU6TYSVMIjnGdlUwDQJNq3hASlDwirVYhlF2qGAIs4xDmgk1evhdMgoeoXeXMUmaVNv4ahEnvJiFZIv7HHiwTnyS8SvGgKugxBBhWfOc");'
+                  ></div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD5ichfe8UCkSxTbP2Eha_Tr5Tcwa6ct28FAx35kEloQHpDljnmaJa039YljolFsa79x2F-BzZLBAcfI5nc5e4SP4uaLoYNS0eV0zVlF370NaNE9XOSQf9AZrmLGQOSi_Biiz_yaKMIqMOagWzMFn7F3aJmCKxWR9hNFYp0PbzFST3DdcVXO5IgNZ6UgGp4w6Sh5LjXZNLnm6o1sxO0Td7HHYiq5-4A8TcNUe5PNizMxVJkTuWMl8H8y9lRKMs9vvM7d61qelp4dMs");'
+                  ></div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4zP0npDxUqToqL8ZVaKJJvPd0uA-aiHez_UW0cTl7a_GBEfkCJ95rxMY2o4ilM6feuVry1kzmnjDnquDeC-SHJvWIxFanEONpTcizPsuy8EK8QuJGxWHhDgBuJP9PRAytycz0NCw0P75bDHz1G0LW4EHYM17eq8Nx9qySS-H9td8mwwN6x6aK-s41kxKgSMzTQlpIFf__qdK2riNnEqIatRwknrf7JV4aGPPMmlaLF9SRCkuHXgSOwYit2az1fSYAZYpHxcEcUiI");'
+                  ></div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuABHjmFpq91QhUaqiQVCdm9qEzXOujxfDJtP455br3I8SdWqtA5fa6RX2_IP2gc_pzU_PVCdB0yeXJzQL4OG-g4BBNBtinCdVFLqGSRp9E9vf9KR3tPWUTXwi4XN-TcFyPKD4lsXPjf6IBIyTTHGOD_i-GH4jCJGWkYWbeKXoTyp_xwqyydQltysA2dDSEK9OpnmekvGckOcnlfnSV_TquELVuB5AL8SQeK2jNLRiKj9xT0-HeG7COg74Lo0u-3rOJDB8rvtzhkymk");'
+                  ></div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQFjeuV148Zl0v4jFVACo1vKLb7Bo_yREjTsOrFHG5rdDlAXhPVU3YrSJQQ6JG2akvIzp-cBRlIn9rmfilzki0X-AGj1d-UnCSzfGFnknksnB9wHv2vsE7RcHd1eFPWjzZo8V2exNzv-d66lIOvB5gSxcGDelnq3JAktk6ThVArTky03nTvCDChx1Ngv8vE0okuU9XUyux_q1uPQDutKYdW5sm3N66ujyJ9kMYlAXUBsHmZn6AmLjceF3JAPQ4sOWAH1nPBzllE2o");'
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

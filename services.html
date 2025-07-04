@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>SLR Installations</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style>
+      /* Custom styles for the modal */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1000; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+        justify-content: center;
+        align-items: center;
+      }
+      .modal-content {
+        background-color: #1e2426; /* Dark background for modal content */
+        margin: auto;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 80%; /* Adjust max-width as needed */
+        max-height: 90%; /* Adjust max-height as needed */
+        overflow-y: auto; /* Enable scrolling within the modal content */
+        position: relative;
+      }
+      .close-button {
+        color: #aaa;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close-button:hover,
+      .close-button:focus {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding-top: 20px; /* Space for the close button */
+      }
+      .gallery-item img {
+        width: 100%;
+        height: 150px; /* Consistent height for gallery images */
+        object-fit: cover; /* Ensures images cover the area without distortion */
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#121617] dark group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header
+          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#2b3336] px-10 py-3"
+        >
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+              SLR Installations
+            </h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <div class="flex items-center gap-9">
+                <a class="text-white text-sm font-medium leading-normal" href="home.html"
+                  >Home</a
+                >
+                <a class="text-white text-sm font-medium leading-normal" href="about us.html"
+                  >About</a
+                >
+                <a class="text-white text-sm font-medium leading-normal" href="projects.html"
+                  >Projects</a
+                >
+                <a class="text-white text-sm font-medium leading-normal" href="contact.html"
+                  >Contact</a
+                >
+              </div>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#32a3cc] text-[#121617] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Get a Quote</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-white tracking-light text-[32px] font-bold leading-tight">
+                  Our Services
+                </p>
+                <p class="text-[#a1b0b5] text-sm font-normal leading-normal">
+                  SLR Installations offers a comprehensive suite of services tailored to meet the
+                  diverse needs of our clients. From high-tension and low-tension installations to
+                  electrical panel upgrades and plant revamps, our team of skilled professionals
+                  delivers quality workmanship and exceptional results. We also specialize in
+                  wiring, cable trading, and industrial furniture solutions, ensuring a seamless
+                  and efficient experience from start to finish.
+                </p>
+              </div>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvcQkChaa5xhBOoV4nAtZDywqu9w-OFEAJPB3qKIOXISa-P5G4GLaIl_FcoUZEvgShUW3Z2Ox0UUOz4-EJDmcZHsdwN3T_SWzuPziFCCTVxVVvVvz048IoiZnHTXHkNzLyAgD9uHSRXoHS6Uk2R8RcQw9HiiNc2ZKlxPePNVKScg2Z8kWGGs7YVKM0onheUJl8vh1FRIte3RxtwuAN7qloc-7rAMDyvCqkLm8opHs_jdxI4_9Y1iBFWGiTSiz4B1C5JM9K1UiVnLo");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">
+                    HT & LT Installations
+                  </p>
+                  <p class="text-[#a1b0b5] text-sm font-normal leading-normal">
+                    Expert installation of high-tension and low-tension electrical systems for
+                    industrial and commercial applications.
+                  </p>
+                  <button
+                    class="view-portfolio-btn mt-3 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-3 bg-[#32a3cc] text-[#121617] text-xs font-bold leading-normal tracking-[0.015em]"
+                    data-service="ht_lt_installations"
+                  >
+                    <span class="truncate">View Portfolio</span>
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLwM7a-t8yqytPRel1RoB2oCp026azDSuztATeY5wDfSTt1L5vFVsH94ZIE5Zj0rDf4_-HViSd1a78-QuOyPBQPawWRlAw7l046uCIz3nd_zgXPf55VdEsXAQC2x87qQzlUd5pNvlvAi9Pb3rSE2WmAXMT6CA3t0JgWy7UdtJxw4coy2xGQpIIKzBDQYHok1eW0z58SQY5unBfbQ-2eYZ9_xKk6R0cU6gVXoFbLJBPRen9s0p2UBZzUUrT48pthfDIiggYtfGbkcE");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">
+                    Electrical Panels
+                  </p>
+                  <p class="text-[#a1b0b5] text-sm font-normal leading-normal">
+                    Upgrade and maintenance of electrical panels to ensure safety and efficiency.
+                  </p>
+                  <button
+                    class="view-portfolio-btn mt-3 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-3 bg-[#32a3cc] text-[#121617] text-xs font-bold leading-normal tracking-[0.015em]"
+                    data-service="electrical_panels"
+                  >
+                    <span class="truncate">View Portfolio</span>
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDfvUFP2vaDn1nb8hHLulGrmDgY2ghW4B3vatcw6YVgrKJOTB2I8uBy1BQJSm0WOjV49DgOkAvPl998FhWeFBLnzrGzLFG36wKVSesJ5EVZYZgPUSJoG85cyeBzWo4EgGU9Sq1XJu4omXofgaLx6cUHDxYBOM0mUn6A501cMy9y6i9SfJXzHmEgoIh_ldHlSiCDfBBcTYaXEUsoAJOvuxjkqtRJsvYYCLlsHOHDI5goXn4kDNgNEcyc6bIkiPp-Z-ESXb0P_ljK-xg");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Plant Revamp</p>
+                  <p class="text-[#a1b0b5] text-sm font-normal leading-normal">
+                    Comprehensive plant revamp services to optimize performance and reliability.
+                  </p>
+                  <button
+                    class="view-portfolio-btn mt-3 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-3 bg-[#32a3cc] text-[#121617] text-xs font-bold leading-normal tracking-[0.015em]"
+                    data-service="plant_revamp"
+                  >
+                    <span class="truncate">View Portfolio</span>
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAs1JdE84V_e6ak4uMQ6_qaD-Aybok4mMT9qh2_AiXUa5XfsjeMnebJxPeMLTCjS_SDm0Dax4f3nwgVjoTiujOLDxGB15e8iltzPcFANq0e2JqDQjC_g7AR735uAqLuKTNR3IA3lFqtpGKmH_k0UpPyLKHgeTkuUDNESsA85HUX2ALA985iYkCQudNRn4XbTxMrmrDl55cfdkWvRVmwvltb55EMlohRdwXV2XoMWC17wOx0-OmREmxhR-ZBakGJgVvs9wLq5yw03ZA");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Wiring</p>
+                  <p class="text-[#a1b0b5] text-sm font-normal leading-normal">
+                    Professional wiring services for new constructions and renovations, adhering to
+                    the highest safety standards.
+                  </p>
+                  <button
+                    class="view-portfolio-btn mt-3 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-3 bg-[#32a3cc] text-[#121617] text-xs font-bold leading-normal tracking-[0.015em]"
+                    data-service="wiring"
+                  >
+                    <span class="truncate">View Portfolio</span>
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAiCR5nuDBveVlbVq7FrytGbKQY52qxmfwF5AG5BbMxPyFAwCr_4lUycdnUGp-0RnM-ulQR4uQQo8ZymvgTfauuXZYB3-a5EtKUwZq4vA4b_7CXwk-qPwAQ5IEFVLyLh4em6-rIzb97ZsykPKkidFk2ISMf_f7JnYQhCjan46H9WhiiKdKqA3xTUFXqPwJp-5GM-CS9Uq5SyjlLvDljiVsTnjqoQopGxBsDJHpMrt_LlDFyVBxixx9PgNxd5Y2GogMP3eQ5YenohbU");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Cable Trading</p>
+                  <p class="text-[#a1b0b5] text-sm font-normal leading-normal">
+                    Trading of high-quality electrical cables to meet your project requirements.
+                  </p>
+                  <button
+                    class="view-portfolio-btn mt-3 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-3 bg-[#32a3cc] text-[#121617] text-xs font-bold leading-normal tracking-[0.015em]"
+                    data-service="cable_trading"
+                  >
+                    <span class="truncate">View Portfolio</span>
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDjqnsEHoE4nFkXN1zhImWv5pAEecK3rvY6YwoQO2jPHlwtn9B7jlXiDyLHIfFSLAJ2jaBT1mwsworkuwCMY-exHYWnev_F668s9_9zsAdjQ82-_W__YuqXVJrlkFvq7WWZMSeQxb_XBPlhhp0BPPhN9G2lqCnMjgm6-Ef8nYRHdoWwVLq3dC8wRj7J_jaU1kUoshMH3Ge0-NJcjIgv2GN-Mv7Q8zvzitRbnumAcTmhUQ0AUmxIp92xLQ37ReICSdHvfik-6f6uzWA");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">
+                    Industrial Furniture
+                  </p>
+                  <p class="text-[#a1b0b5] text-sm font-normal leading-normal">
+                    Customized industrial furniture solutions designed for durability and
+                    functionality.
+                  </p>
+                  <button
+                    class="view-portfolio-btn mt-3 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-3 bg-[#32a3cc] text-[#121617] text-xs font-bold leading-normal tracking-[0.015em]"
+                    data-service="industrial_furniture"
+                  >
+                    <span class="truncate">View Portfolio</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-center">
+              <a href="contact.html">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#32a3cc] text-[#121617] text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Get in Touch</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolioModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2 id="modal-title" class="text-white text-xl font-bold leading-tight mb-4"></h2>
+        <div id="modal-gallery-container" class="gallery-grid">
+          </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const modal = document.getElementById('portfolioModal');
+        const closeButton = document.querySelector('.close-button');
+        const modalTitle = document.getElementById('modal-title');
+        const modalGalleryContainer = document.getElementById('modal-gallery-container');
+        const viewPortfolioButtons = document.querySelectorAll('.view-portfolio-btn');
+
+        // Define your portfolio data
+        const servicePortfolios = {
+          ht_lt_installations: {
+            title: 'HT & LT Installations Portfolio',
+            images: [
+              { src: 'https://via.placeholder.com/400x200?text=HT+LT+Install+1', alt: 'HT LT Installation 1' },
+              { src: 'https://via.placeholder.com/400x200?text=HT+LT+Install+2', alt: 'HT LT Installation 2' },
+              { src: 'https://via.placeholder.com/400x200?text=HT+LT+Install+3', alt: 'HT LT Installation 3' },
+            ],
+          },
+          electrical_panels: {
+            title: 'Electrical Panels Portfolio',
+            images: [
+              { src: 'https://via.placeholder.com/400x200?text=Electrical+Panel+1', alt: 'Electrical Panel 1' },
+              { src: 'https://via.placeholder.com/400x200?text=Electrical+Panel+2', alt: 'Electrical Panel 2' },
+            ],
+          },
+          plant_revamp: {
+            title: 'Plant Revamp Portfolio',
+            images: [
+              { src: 'https://via.placeholder.com/400x200?text=Plant+Revamp+1', alt: 'Plant Revamp 1' },
+              { src: 'https://via.placeholder.com/400x200?text=Plant+Revamp+2', alt: 'Plant Revamp 2' },
+              { src: 'https://via.placeholder.com/400x200?text=Plant+Revamp+3', alt: 'Plant Revamp 3' },
+            ],
+          },
+          wiring: {
+            title: 'Wiring Portfolio',
+            images: [
+              { src: 'https://via.placeholder.com/400x200?text=Wiring+1', alt: 'Wiring 1' },
+              { src: 'https://via.placeholder.com/400x200?text=Wiring+2', alt: 'Wiring 2' },
+            ],
+          },
+          cable_trading: {
+            title: 'Cable Trading Portfolio',
+            images: [
+              { src: 'https://via.placeholder.com/400x200?text=Cable+Trading+1', alt: 'Cable Trading 1' },
+              { src: 'https://via.placeholder.com/400x200?text=Cable+Trading+2', alt: 'Cable Trading 2' },
+            ],
+          },
+          industrial_furniture: {
+            title: 'Industrial Furniture Portfolio',
+            images: [
+              { src: 'https://via.placeholder.com/400x200?text=Industrial+Furniture+1', alt: 'Industrial Furniture 1' },
+              { src: 'https://via.placeholder.com/400x200?text=Industrial+Furniture+2', alt: 'Industrial Furniture 2' },
+            ],
+          },
+        };
+
+        // Function to open the modal and display images
+        function openPortfolioModal(serviceKey) {
+          const portfolio = servicePortfolios[serviceKey];
+          if (portfolio) {
+            modalTitle.textContent = portfolio.title;
+            modalGalleryContainer.innerHTML = ''; // Clear previous images
+
+            portfolio.images.forEach(image => {
+              const galleryItem = document.createElement('div');
+              galleryItem.classList.add('gallery-item');
+              galleryItem.innerHTML = `<img src="${image.src}" alt="${image.alt}">`;
+              modalGalleryContainer.appendChild(galleryItem);
+            });
+
+            modal.style.display = 'flex'; // Use flex to center content
+          } else {
+            console.error('Service portfolio not found:', serviceKey);
+          }
+        }
+
+        // Event listeners for "View Portfolio" buttons
+        viewPortfolioButtons.forEach(button => {
+          button.addEventListener('click', (event) => {
+            const service = event.currentTarget.dataset.service; // Get the data-service attribute
+            openPortfolioModal(service);
+          });
+        });
+
+        // Event listener for the close button
+        closeButton.addEventListener('click', () => {
+          modal.style.display = 'none';
+        });
+
+        // Close the modal if clicked outside of the content
+        window.addEventListener('click', (event) => {
+          if (event.target == modal) {
+            modal.style.display = 'none';
+          }
+        });
+
+        // Close with Escape key
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && modal.style.display === 'flex') {
+            modal.style.display = 'none';
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
